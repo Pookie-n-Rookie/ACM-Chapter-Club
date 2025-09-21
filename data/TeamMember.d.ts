@@ -1,17 +1,16 @@
 type TeamMember = {
-    honorifics?: "Dr." | "Mr." | "Mrs." | "Ms." | " Prof.";
+    honorifics?: string; 
     firstName: string;
     lastName: string;
     imageURL: string;
     post:
-        | "Treasurer"
-        | "Joint Treasurer"
-        | "Vice Chairperson"
-        | "Chairperson"
-        | "Technical Head"
+        | "Chair"
+        | "Vice Chair"
         | "Secretary"
-        | "Joint Secretary"
-        | "Public Relations Officer"
+        | "Treasurer"
+        | "Technical Lead"
+        | "Membership Chair"
+        | "Webmaster"
         | "Faculty Sponsor";
     linkedinURL?: string;
     githubURL?: string;
